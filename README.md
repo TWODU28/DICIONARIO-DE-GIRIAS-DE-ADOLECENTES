@@ -1,0 +1,30 @@
+girias = {
+    "cringe": "Algo considerado vergonhoso ou fora de moda.",
+    "flopar": "Fracassar ou não fazer sucesso.",
+    "hitar": "Fazer muito sucesso.",
+    "shippar": "Torcer para que duas pessoas fiquem juntas.",
+    "ranço": "Sentimento de irritação ou antipatia por alguém ou algo.",
+    "top": "Muito bom, excelente.",
+    "sextou": "Comemoração pela chegada da sexta-feira.",
+    "tankar": "Aguentar ou suportar algo.",
+    "bugado": "Confuso ou estranho.",
+    "cancelado": "Alguém rejeitado ou criticado publicamente.",
+    "dar exposed": "Revelar algo escondido sobre alguém.",
+    "stalkear": "Investigar ou acompanhar alguém nas redes sociais.",
+    "fomo": "Medo de ficar de fora de algo interessante.",
+    "low profile": "Pessoa discreta, que não se expõe muito.",
+    "biscoitar": "Postar algo buscando atenção ou elogios.",
+    "lacrar": "Arrasar ou mandar muito bem em algo.",
+    "passar pano": "Defender alguém mesmo estando errado.",
+    "dar ruim": "Algo que deu errado.",
+    "tô off": "Estou fora / não quero participar.",
+    "vibe": "Clima ou energia de um lugar ou pessoa" }
+
+word = input("Digite uma palavra moderna que você não entende (escreva todo a palavra em letras maiúsculas): ")
+
+if word in girias.keys(): 
+    print(girias[word])
+    # O que devemos fazer se a palavra for encontrada?
+else: 
+    print("essa palavra ainda não existe entao vá reclamar com o FELCA")
+    # O que devemos fazer se a palavra não for encontrada?
